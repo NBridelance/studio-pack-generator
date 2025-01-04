@@ -22,8 +22,7 @@ import {
   isStory,
   isZipFile,
 } from "../utils/utils.ts";
-
-import { join } from "@std/path";
+import { basename, join } from "@std/path";
 import { exists } from "@std/fs";
 
 import { duration } from "@dbushell/audio-duration";
@@ -57,7 +56,10 @@ export async function folderToPack(
         name: "Action node",
         options: [
           firstSubFolder
-            ? await folderToMenu(firstSubFolder, "")
+            ? await folderToMenu(
+              firstSubFolder,
+              firstSubFolder.path ? basename(firstSubFolder.path) : "",
+            )
             : fileToStory(firstStoryFile(folder)!),
         ],
       },
@@ -121,7 +123,7 @@ export async function folderToMenu(
               : isStory(f as File)
               ? await fileToStoryItem(f as File, folder)
               : isZipFile(f as File)
-              ? fileToZipMenu(`${path}/${folder.name}/${f.name}`)
+              ? fileToZipMenu(`${path}/${f.name}`)
               : null
           ),
         )
