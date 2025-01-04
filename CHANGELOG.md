@@ -1,3 +1,10 @@
+## [0.5.14](https://github.com/jersou/studio-pack-generator/compare/v0.5.13...v0.5.14) (2025-01-04)
+
+### Bug Fixes
+
+- error when zip menu is used
+  ([d346cdb](https://github.com/jersou/studio-pack-generator/commit/d346cdba68b954c7047cabb0ab8738fe4c88e29c))
+
 ## [0.5.13](https://github.com/jersou/studio-pack-generator/compare/v0.5.12...v0.5.13) (2024-12-17)
 
 ### Features
