@@ -49,8 +49,15 @@ instead of picoTTS (unless you have WSL and picoTTS installed).**
   this usage.
 - **imagemagick** : used to generate menu image files.
   <br>→ Use `--skip-image-item-gen` to avoid this usage.
-- **picoTTS** : used to generate menu audio files.
+- **picoTTS** : used to generate menu audio files by default for basic/OS TTS.
   <br>→ Use `--skip-audio-item-gen` to avoid this usage.
+- **gTTS (gtts-cli)** : an alternative TTS using Google Translate TTS (python gTTS). It can be enabled with `--use-gtts` and will generate audio via the `gtts-cli` command.
+  <br>→ Install: `pip install gTTS` (or on Windows in WSL and enable with `--skip-wsl` accordingly).
+  <br>→ Use `--use-gtts` to enable.
+- **Gemini TTS (Google GenAI)** : optional high-quality TTS using Gemini (requires Google GenAI python package and an API key). It can be enabled with `--use-gemini-tts` and expects `GEMINI_API_KEY` in the environment (or you can set it before running).
+  <br>→ Install: `pip install google-genai` and ensure you have Python and required deps.
+  <br>→ Set API key: `setx GEMINI_API_KEY "YOUR_KEY"` (PowerShell) or `export GEMINI_API_KEY=YOUR_KEY` on Unix.
+  <br>→ Use `--use-gemini-tts` to enable. The default Gemini model used is `gemini-2.5-flash-preview-tts` and default voice `Kore` (configurable with `--gemini-model` and `--gemini-voice`).
 
 Install optional dependencies :
 `sudo apt update && sudo apt install -y ffmpeg libttspico-utils imagemagick`
@@ -257,6 +264,10 @@ Options:
      --coqui-tts-model              coqui TTS model       [default: "tts_models/multilingual/multi-dataset/xtts_v2"]
      --coqui-tts-language-idx       coqui TTS language_idx                                           [default: "fr"]
      --coqui-tts-speaker-idx        coqui TTS speaker_idx                                  [default: "Abrahan Mack"]
+     --use-gtts                     use gTTS (Google Translate TTS)                                 [default: false]
+     --use-gemini-tts               use Gemini TTS (Google GenAI)                                   [default: false]
+     --gemini-model                 Gemini TTS model                       [default: "gemini-2.5-flash-preview-tts"]
+     --gemini-voice                 Gemini TTS voice                                              [default: "Kore"]
  -x, --extract                      extract a zip pack (reverse mode)                               [default: false]
      --extract-disable-night-mode   disable night mode in extract mode                              [default: false]
  -u, --gui                          open GUI (on localhost:5555)                                    [default: false]
@@ -293,6 +304,7 @@ Separate options by spaces, ex :
 - Option to skip the beginning of stories.
 - Zip Pack aggregation
 - OpenAI & Coqui TTS
+- gTTS & Gemini TTS
 - a GUI
 
 ### Overwrite metadata
@@ -332,6 +344,32 @@ https://github.com/idiap/coqui-ai-TTS
 
 [To install coqui](https://github.com/idiap/coqui-ai-TTS?tab=readme-ov-file#installation)
 : `pip install coqui-tts`
+
+## gTTS
+
+gTTS is an alternative TTS using Google Translate TTS. To use gTTS, install the `gTTS` Python package:
+
+```shell
+pip install gTTS
+```
+
+Enable gTTS with the `--use-gtts` flag.
+
+## Gemini TTS
+
+Gemini TTS is a high-quality TTS using Google GenAI. To use Gemini TTS, install the `google-genai` Python package:
+
+```shell
+pip install google-genai
+```
+
+Set the API key in the environment:
+
+```shell
+export GEMINI_API_KEY=YOUR_KEY
+```
+
+Enable Gemini TTS with the `--use-gemini-tts` flag. The default model is `gemini-2.5-flash-preview-tts` and the default voice is `Kore`. These can be configured with `--gemini-model` and `--gemini-voice`.
 
 ## Reverse process : extract pack from zip
 

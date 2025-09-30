@@ -16,3 +16,4 @@
 /gui/.vite
 node_modules
 /.spg-TTS-cache/
+/stories/

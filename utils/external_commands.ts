@@ -157,3 +157,25 @@ or install ImageMagick : sudo apt install -y imagemagick
   }
   return convertCommand;
 }
+
+let gttsCommand: string[] = [];
+export async function getGttsCommand(): Promise<string[]> {
+  if (gttsCommand.length === 0) {
+    // try wsl on windows
+    if (Deno.build.os === "windows" && await checkCommand(["wsl", "gtts-cli", "-h"], 0)) {
+      gttsCommand = ["wsl", "gtts-cli"];
+    } else if (await checkCommand(["gtts-cli", "-h"], 0)) {
+      gttsCommand = ["gtts-cli"];
+    } else {
+      console.error(
+        `
+Command gtts-cli (from gTTS) not found,
+use --skip-audio-item-gen to skip audio item generation
+or install gTTS: pip install gTTS
+`,
+      );
+      Deno.exit(3);
+    }
+  }
+  return gttsCommand;
+}

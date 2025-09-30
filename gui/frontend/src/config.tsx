@@ -45,7 +45,11 @@ export function Config({
     ? "openAI"
     : opt.useCoquiTts
       ? "coqui"
-      : "os";
+      : opt.useGtts
+        ? "gtts"
+        : opt.useGeminiTts
+          ? "gemini"
+          : "os";
   const onTtsChange = (event: any) => {
     switch (event.target.value) {
       case "os":
@@ -53,6 +57,8 @@ export function Config({
           ...opt,
           useCoquiTts: false,
           useOpenAiTts: false,
+          useGtts: false,
+          useGeminiTts: false,
         });
         break;
       case "openAI":
@@ -60,6 +66,8 @@ export function Config({
           ...opt,
           useCoquiTts: false,
           useOpenAiTts: true,
+          useGtts: false,
+          useGeminiTts: false,
         });
         break;
       case "coqui":
@@ -67,6 +75,26 @@ export function Config({
           ...opt,
           useCoquiTts: true,
           useOpenAiTts: false,
+          useGtts: false,
+          useGeminiTts: false,
+        });
+        break;
+      case "gtts":
+        setOpt({
+          ...opt,
+          useCoquiTts: false,
+          useOpenAiTts: false,
+          useGtts: true,
+          useGeminiTts: false,
+        });
+        break;
+      case "gemini":
+        setOpt({
+          ...opt,
+          useCoquiTts: false,
+          useOpenAiTts: false,
+          useGtts: false,
+          useGeminiTts: true,
         });
         break;
     }
@@ -270,8 +298,46 @@ export function Config({
                 control={<Radio />}
                 label="Coqui TTS"
               />
+              <FormControlLabel
+                value="gtts"
+                control={<Radio />}
+                label="gTTS (gtts-cli)"
+              />
+              <FormControlLabel
+                value="gemini"
+                control={<Radio />}
+                label="Gemini TTS"
+              />
             </RadioGroup>
           </FormControl>
+
+          {opt.useGtts && (
+            <>
+              <TextField
+                variant="standard"
+                value={opt.lang || "fr"}
+                onChange={update("lang")}
+                label="Language for gTTS (e.g. 'fr')"
+              />
+            </>
+          )}
+
+          {opt.useGeminiTts && (
+            <>
+              <TextField
+                variant="standard"
+                value={opt.geminiModel || ""}
+                onChange={update("geminiModel")}
+                label="Gemini model"
+              />
+              <TextField
+                variant="standard"
+                value={opt.geminiVoice || ""}
+                onChange={update("geminiVoice")}
+                label="Gemini voice"
+              />
+            </>
+          )}
 
           {opt.useOpenAiTts && (
             <>

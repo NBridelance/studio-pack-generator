@@ -142,6 +142,20 @@ export class StudioPackGenerator {
   @help("use coqui TTS")
   useCoquiTts = false;
 
+  @help("use gTTS (gtts-cli)")
+  @alias("y")
+  useGtts = false;
+
+  @help("use Gemini TTS (via python google-genai). Requires GEMINI_API_KEY env var")
+  @alias("f")
+  useGeminiTts = false;
+
+  @help("Gemini TTS model")
+  geminiModel = "gemini-2.5-flash-preview-tts";
+
+  @help("Gemini TTS voice")
+  geminiVoice = "Kore";
+
   @help("enable CUDA in coqui TTS")
   coquiTtsUseCuda = false;
 
