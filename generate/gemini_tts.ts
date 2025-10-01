@@ -1,9 +1,8 @@
 import { bgRed, blue } from "@std/fmt/colors";
 import $ from "@david/dax";
 import { cacheTtsFile, useCachedTtsFile } from "./tts_cache.ts";
-import { convertPath } from "../utils/utils.ts";
 import type { StudioPackGenerator } from "../studio_pack_generator.ts";
-import { getFfmpegCommand } from "../utils/external_commands.ts";
+import { getFfmpegCommand, convertPathForCommand } from "../utils/external_commands.ts";
 
 // This implementation shells out to a small Python helper that uses google-genai
 // to call Gemini TTS. The python script receives text, model, voice and writes
@@ -101,7 +100,8 @@ export async function generate_audio_with_gemini(
       opt.geminiModel || "gemini-2.5-flash-preview-tts",
       opt.geminiVoice || "Kore",
       title,
-      convertPath(tmpOut, opt),
+      // Python runs natively (not via WSL), so keep native path
+      tmpOut,
     ];
     console.log(blue(`Gemini gen ${title} -> ${outputPath}`));
     const res = await $`${cmd}`.noThrow();
@@ -112,12 +112,12 @@ export async function generate_audio_with_gemini(
         ...ff,
         "-y",
         "-i",
-        tmpOut,
+        convertPathForCommand(tmpOut, ff, false /* skipWsl flag not relevant for ff */),
         "-ac",
         "1",
         "-ar",
         "22050",
-        convertPath(outputPath, opt),
+        convertPathForCommand(outputPath, ff, opt.skipWsl),
       ];
       const convRes = await $`${conv}`.noThrow();
       // cleanup

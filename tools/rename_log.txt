@@ -1,0 +1,256 @@
+SKIP (no title): C:\Users\z00517br\Personnel\VSCode\SPG\studio-pack-generator\stories\Fables de la Fontaine\0-item.mp3
+SKIP (no title): C:\Users\z00517br\Personnel\VSCode\SPG\studio-pack-generator\stories\Fables de la Fontaine\0-night-mode.mp3
+SKIP (no title): C:\Users\z00517br\Personnel\VSCode\SPG\studio-pack-generator\stories\Fables de la Fontaine\Choisis le Livre\0-item.mp3
+SKIP (no title): C:\Users\z00517br\Personnel\VSCode\SPG\studio-pack-generator\stories\Fables de la Fontaine\Choisis le Livre\01-Livre Premier\0-item.mp3
+RENAMED: fables01_00_lafontaine_jl_64kb.mp3 -> 00 - A Monseigneur le Dauphin.mp3
+RENAMED: fables01_01_lafontaine_jl_64kb.mp3 -> 01 - La Cigale et la Fourmi.mp3
+RENAMED: fables01_02_lafontaine_jl_64kb.mp3 -> 02 - Le Corbeau et le Renard.mp3
+RENAMED: fables01_03_lafontaine_jl_64kb.mp3 -> 03 - La Grenouille qui veut se faire plus grosse que le Boeuf.mp3
+RENAMED: fables01_04_lafontaine_jl_64kb.mp3 -> 04 - Les Deux Mulets.mp3
+RENAMED: fables01_05_lafontaine_jl_64kb.mp3 -> 05 - Le Loup et le Chien.mp3
+RENAMED: fables01_06_lafontaine_jl_64kb.mp3 -> 06 - La Genisse, la Chevre et la Brebis, en societe avec le Lion.mp3
+RENAMED: fables01_07_lafontaine_jl_64kb.mp3 -> 07 - La Besace.mp3
+RENAMED: fables01_08_lafontaine_jl_64kb.mp3 -> 08 - L'Hirondelle et les petits Oiseaux.mp3
+RENAMED: fables01_09_lafontaine_jl_64kb.mp3 -> 09 - Le Rat de ville et le Rat des champs.mp3
+RENAMED: fables01_10_lafontaine_jl_64kb.mp3 -> 10 - Le Loup et l'Agneau.mp3
+RENAMED: fables01_11_lafontaine_jl_64kb.mp3 -> 11 - L'Homme et son Image.mp3
+RENAMED: fables01_12_lafontaine_jl_64kb.mp3 -> 12 - Le Dragon a plusieurs tetes et le Dragon a plusieurs queues.mp3
+RENAMED: fables01_13_lafontaine_jl_64kb.mp3 -> 13 - Les Voleurs et l'Ane.mp3
+RENAMED: fables01_14_lafontaine_jl_64kb.mp3 -> 14 - Simonide preserve par les Dieux.mp3
+RENAMED: fables01_15_lafontaine_jl_64kb.mp3 -> 15 - La Mort et le Malheureux.mp3
+RENAMED: fables01_16_lafontaine_jl_64kb.mp3 -> 16 - La Mort et le Bucheron.mp3
+RENAMED: fables01_17_lafontaine_jl_64kb.mp3 -> 17 - L'Homme entre deux ages et ses deux Maitresses.mp3
+RENAMED: fables01_18_lafontaine_jl_64kb.mp3 -> 18 - Le Renard et la Cigogne.mp3
+RENAMED: fables01_19_lafontaine_jl_64kb.mp3 -> 19 - L'Enfant et le Maitre d'ecole.mp3
+RENAMED: fables01_20_lafontaine_jl_64kb.mp3 -> 20 - Le Coq et la Perle.mp3
+RENAMED: fables01_21_lafontaine_jl_64kb.mp3 -> 21 - Les Frelons et les Mouches a miel.mp3
+RENAMED: fables01_22_lafontaine_jl_64kb.mp3 -> 22 - Le Chene et le Roseau.mp3
+RENAMED: fables02_01_lafontaine_jl_64kb.mp3 -> 01 - Contre ceux qui ont le gout difficile.mp3
+RENAMED: fables02_02_lafontaine_jl_64kb.mp3 -> 02 - Conseil tenu par les Rats.mp3
+RENAMED: fables02_03_lafontaine_jl_64kb.mp3 -> 03 - Le Loup plaidant contre le Renard par-devant le Singe.mp3
+RENAMED: fables02_04_lafontaine_jl_64kb.mp3 -> 04 - Les Deux Taureaux et une Grenouille.mp3
+RENAMED: fables02_05_lafontaine_jl_64kb.mp3 -> 05 - La Chauve-Souris et les deux Belettes.mp3
+RENAMED: fables02_06_lafontaine_jl_64kb.mp3 -> 06 - L'Oiseau blesse dâune fleche.mp3
+RENAMED: fables02_07_lafontaine_jl_64kb.mp3 -> 07 - La Lice et sa Compagne.mp3
+RENAMED: fables02_08_lafontaine_jl_64kb.mp3 -> 08 - L'Aigle et l'Escarbot.mp3
+RENAMED: fables02_09_lafontaine_jl_64kb.mp3 -> 09 - Le Lion et le Moucheron.mp3
+RENAMED: fables02_10_lafontaine_jl_64kb.mp3 -> 10 - L'Ane charge dâeponges, et lâAne charge de sel.mp3
+RENAMED: fables02_11_lafontaine_jl_64kb.mp3 -> 11 - Le Lion et le Rat.mp3
+RENAMED: fables02_12_lafontaine_jl_64kb.mp3 -> 12 - La Colombe et la Fourmi.mp3
+RENAMED: fables02_13_lafontaine_jl_64kb.mp3 -> 13 - L'Astrologue qui se laisse tomber dans un puit.mp3
+RENAMED: fables02_14_lafontaine_jl_64kb.mp3 -> 14 - Le Lievre et les Grenouilles.mp3
+RENAMED: fables02_15_lafontaine_jl_64kb.mp3 -> 15 - Le Coq et le Renard.mp3
+RENAMED: fables02_16_lafontaine_jl_64kb.mp3 -> 16 - Le Corbeau voulant imiter l'Aigle.mp3
+RENAMED: fables02_17_lafontaine_jl_64kb.mp3 -> 17 - Le Paon se plaignant a Junon.mp3
+RENAMED: fables02_18_lafontaine_jl_64kb.mp3 -> 18 - La Chatte metarmorphosee en Femme.mp3
+RENAMED: fables02_19_lafontaine_jl_64kb.mp3 -> 19 - Le Lion et l'Ane chassant.mp3
+RENAMED: fables02_20_lafontaine_jl_64kb.mp3 -> 20 - Testament explique par Esope.mp3
+RENAMED: fables03_01_lafontaine_jl_64kb.mp3 -> 01 - Le Meunier, son Fils et l'Ane.mp3
+RENAMED: fables03_02_lafontaine_jl_64kb.mp3 -> 02 - Les Membres et l'Estomac.mp3
+RENAMED: fables03_03_lafontaine_jl_64kb.mp3 -> 03 - Le Loup devenu berger.mp3
+RENAMED: fables03_04_lafontaine_jl_64kb.mp3 -> 04 - Les Grenouilles qui demandent un Roi.mp3
+RENAMED: fables03_05_lafontaine_jl_64kb.mp3 -> 05 - Le Renard et le Bouc.mp3
+RENAMED: fables03_06_lafontaine_jl_64kb.mp3 -> 06 - L'Aigle, la Laie et la Chatte.mp3
+RENAMED: fables03_07_lafontaine_jl_64kb.mp3 -> 07 - L'Ivrogne et sa Femme.mp3
+RENAMED: fables03_08_lafontaine_jl_64kb.mp3 -> 08 - La Goutte et l'Araignee.mp3
+RENAMED: fables03_09_lafontaine_jl_64kb.mp3 -> 09 - Le Loup et la Cigogne.mp3
+RENAMED: fables03_10_lafontaine_jl_64kb.mp3 -> 10 - Le Lion abattu par l'Homme.mp3
+RENAMED: fables03_11_lafontaine_jl_64kb.mp3 -> 11 - Le Renard et les Raisins.mp3
+RENAMED: fables03_12_lafontaine_jl_64kb.mp3 -> 12 - Le Cygne et le Cuisinier.mp3
+RENAMED: fables03_13_lafontaine_jl_64kb.mp3 -> 13 - Les Loups et les Brebis.mp3
+RENAMED: fables03_14_lafontaine_jl_64kb.mp3 -> 14 - Le Lion devenu vieux.mp3
+RENAMED: fables03_15_lafontaine_jl_64kb.mp3 -> 15 - Philomele et Progne.mp3
+RENAMED: fables03_16_lafontaine_jl_64kb.mp3 -> 16 - La Femme noyee.mp3
+RENAMED: fables03_17_lafontaine_jl_64kb.mp3 -> 17 - La Belette entree dans le grenier.mp3
+RENAMED: fables03_18_lafontaine_jl_64kb.mp3 -> 18 - Le Chat et un vieux Rat.mp3
+RENAMED: fables04_01_lafontaine_64kb.mp3 -> 01 - Le Lion amoureux.mp3
+RENAMED: fables04_02_lafontaine_64kb.mp3 -> 02 - Le Berger et la Mer.mp3
+RENAMED: fables04_03_lafontaine_64kb.mp3 -> 03 - La Mouche et la Fourmi.mp3
+RENAMED: fables04_04_lafontaine_64kb.mp3 -> 04 - Le Jardinier et son Seigneur.mp3
+RENAMED: fables04_05_lafontaine_64kb.mp3 -> 05 - L'ÃÂne et le petit Chien.mp3
+RENAMED: fables04_06_lafontaine_64kb.mp3 -> 06 - Le Combat des Rats et des Belettes.mp3
+RENAMED: fables04_07_lafontaine_64kb.mp3 -> 07 - Le Singe et le Dauphin.mp3
+RENAMED: fables04_08_lafontaine_64kb.mp3 -> 08 - LÃ¢ÂÂHomme et lÃ¢ÂÂIdole de bois.mp3
+RENAMED: fables04_09_lafontaine_64kb.mp3 -> 09 - Le Geai parÃÂ© des plumes du Paon.mp3
+RENAMED: fables04_10_lafontaine_64kb.mp3 -> 10 - Le Chameau et les BÃÂ¢tons flottants.mp3
+RENAMED: fables04_11_lafontaine_64kb.mp3 -> 11 - La Grenouille et le Rat.mp3
+RENAMED: fables04_12_lafontaine_64kb.mp3 -> 12 - Tribut envoyÃÂ© par les Animaux ÃÂ Alexandre.mp3
+RENAMED: fables04_13_lafontaine_64kb.mp3 -> 13 - Le Cheval sÃ¢ÂÂÃÂ©tant voulu venger du Cerf.mp3
+RENAMED: fables04_14_lafontaine_64kb.mp3 -> 14 - Le Renard et le Buste.mp3
+RENAMED: fables04_15_lafontaine_64kb.mp3 -> 15 - Le Loup, la ChÃÂ¨vre et le Chevreau.mp3
+RENAMED: fables04_16_lafontaine_64kb.mp3 -> 16 - Le Loup, la MÃÂ¨re et lÃ¢ÂÂEnfant.mp3
+RENAMED: fables04_17_lafontaine_64kb.mp3 -> 17 - Parole de Socrate.mp3
+RENAMED: fables04_18_lafontaine_64kb.mp3 -> 18 - Le Vieillard et ses Enfants.mp3
+RENAMED: fables04_19_lafontaine_64kb.mp3 -> 19 - LÃ¢ÂÂOracle et lÃ¢ÂÂImpie.mp3
+RENAMED: fables04_20_lafontaine_64kb.mp3 -> 20 - LÃ¢ÂÂAvare qui a perdu son trÃÂ©sor.mp3
+RENAMED: fables04_21_lafontaine_64kb.mp3 -> 21 - LÃ¢ÂÂÃ Âil du MaÃÂ®tre.mp3
+RENAMED: fables04_22_lafontaine_64kb.mp3 -> 22 - LÃ¢ÂÂAlouette et ses Petits avec le MaÃÂ®tre dÃ¢ÂÂun champ.mp3
+RENAMED: fables_vol05_01_lafontaine_64kb.mp3 -> 01 - Le bÃÂ»cheron et Mercure.mp3
+RENAMED: fables_vol05_02_lafontaine_64kb.mp3 -> 02 - Le pot de terre et le pot de fer.mp3
+RENAMED: fables_vol05_03_lafontaine_64kb.mp3 -> 03 - Le petit poisson et le pÃÂªcheur.mp3
+RENAMED: fables_vol05_04_lafontaine_64kb.mp3 -> 04 - Les oreilles du liÃÂ¨vre.mp3
+RENAMED: fables_vol05_05_lafontaine_64kb.mp3 -> 05 - Le renard ayant la queue coupÃÂ©e.mp3
+RENAMED: fables_vol05_06_lafontaine_64kb.mp3 -> 06 - La vieille et les deux servantes.mp3
+RENAMED: fables_vol05_07_lafontaine_64kb.mp3 -> 07 - Le satyre et le passant.mp3
+RENAMED: fables_vol05_08_lafontaine_64kb.mp3 -> 08 - Le cheval et le loup.mp3
+RENAMED: fables_vol05_09_lafontaine_64kb.mp3 -> 09 - Le laboureur et ses enfants.mp3
+RENAMED: fables_vol05_10_lafontaine_64kb.mp3 -> 10 - La montagne qui accouche.mp3
+RENAMED: fables_vol05_11_lafontaine_64kb.mp3 -> 11 - La Fortune et le jeune enfant.mp3
+RENAMED: fables_vol05_12_lafontaine_64kb.mp3 -> 12 - Les mÃÂ©decins.mp3
+RENAMED: fables_vol05_13_lafontaine_64kb.mp3 -> 13 - La poule aux oeufs d'or.mp3
+RENAMED: fables_vol05_14_lafontaine_64kb.mp3 -> 14 - L'ÃÂ¢ne portant des reliques.mp3
+RENAMED: fables_vol05_15_lafontaine_64kb.mp3 -> 15 - Le cerf et la vigne.mp3
+RENAMED: fables_vol05_16_lafontaine_64kb.mp3 -> 16 - Le serpent et la lime.mp3
+RENAMED: fables_vol05_17_lafontaine_64kb.mp3 -> 17 - Le liÃÂ¨vre et la perdrix.mp3
+RENAMED: fables_vol05_18_lafontaine_64kb.mp3 -> 18 - L'Aigle et le hibou.mp3
+RENAMED: fables_vol05_19_lafontaine_64kb.mp3 -> 19 - Le lion s'en allant en guerre.mp3
+RENAMED: fables_vol05_20_lafontaine_64kb.mp3 -> 20 - L'ours et les deux compagnons.mp3
+RENAMED: fables_vol05_21_lafontaine_64kb.mp3 -> 21 - L'ÃÂne vÃÂªtu de la peau du lion.mp3
+RENAMED: fables06_01_lafontaine_64kb.mp3 -> 01 - Le PÃÂ¢tre et le Lion.mp3
+RENAMED: fables06_02_lafontaine_64kb.mp3 -> 02 - Le Lion et le Chasseur.mp3
+RENAMED: fables06_03_lafontaine_64kb.mp3 -> 03 - PhÃÂ©bus et BorÃÂ©e.mp3
+RENAMED: fables06_04_lafontaine_64kb.mp3 -> 04 - Jupiter et le mÃÂ©tayer.mp3
+RENAMED: fables06_05_lafontaine_64kb.mp3 -> 05 - Le Cochet, le Chat et le Souriceau.mp3
+RENAMED: fables06_06_lafontaine_64kb.mp3 -> 06 - Le Renard, le Singe et les Animaux.mp3
+RENAMED: fables06_07_lafontaine_64kb.mp3 -> 07 - Le Mulet se vantant de sa gÃÂ©nÃÂ©alogie.mp3
+RENAMED: fables06_08_lafontaine_64kb.mp3 -> 08 - Le Vieillard et l'Ane.mp3
+RENAMED: fables06_09_lafontaine_64kb.mp3 -> 09 - Le Cerf se voyant dans l'eau.mp3
+RENAMED: fables06_10_lafontaine_64kb.mp3 -> 10 - Le LiÃÂ¨vre et la Tortue.mp3
+RENAMED: fables06_11_lafontaine_64kb.mp3 -> 11 - L'Ane et ses maÃÂ®tres.mp3
+RENAMED: fables06_12_lafontaine_64kb.mp3 -> 12 - Le Soleil et les Grenouilles.mp3
+RENAMED: fables06_13_lafontaine_64kb.mp3 -> 13 - Le Villageois et le Serpent.mp3
+RENAMED: fables06_14_lafontaine_64kb.mp3 -> 14 - Le Lion malade et le Renard.mp3
+RENAMED: fables06_15_lafontaine_64kb.mp3 -> 15 - L'Oiseleur, l'Autour et l'Alouette.mp3
+RENAMED: fables06_16_lafontaine_64kb.mp3 -> 16 - Le Cheval et l'Ane.mp3
+RENAMED: fables06_17_lafontaine_64kb.mp3 -> 17 - Le Chien qui lÃÂ¢che sa proie pour l'ombre.mp3
+RENAMED: fables06_18_lafontaine_64kb.mp3 -> 18 - Le Chartier embourbÃÂ©.mp3
+RENAMED: fables06_19_lafontaine_64kb.mp3 -> 19 - Le Charlatan.mp3
+RENAMED: fables06_20_lafontaine_64kb.mp3 -> 20 - La Discorde.mp3
+RENAMED: fables06_21_lafontaine_64kb.mp3 -> 21 - La Jeune veuve.mp3
+RENAMED: fables06_22_lafontaine_64kb.mp3 -> 22 - Epilogue au livre 6.mp3
+RENAMED: fables07_00_lafontaine_64kb.mp3 -> 00 - A Madame de Montespan.mp3
+RENAMED: fables07_01_lafontaine_64kb.mp3 -> 01 - Les Animaux malades de la Peste.mp3
+RENAMED: fables07_02_lafontaine_64kb.mp3 -> 02 - Le Mal Marie.mp3
+RENAMED: fables07_03_lafontaine_64kb.mp3 -> 03 - Le Rat qui sÃ¢ÂÂest retire du monde.mp3
+RENAMED: fables07_04_lafontaine_64kb.mp3 -> 04 - Le Heron.mp3
+RENAMED: fables07_05_lafontaine_64kb.mp3 -> 05 - La Fille.mp3
+RENAMED: fables07_06_lafontaine_64kb.mp3 -> 06 - Les Souhaits.mp3
+RENAMED: fables07_07_lafontaine_64kb.mp3 -> 07 - La Cour du lion.mp3
+RENAMED: fables07_08_lafontaine_64kb.mp3 -> 08 - Les Vautours et les Pigeons.mp3
+RENAMED: fables07_09_lafontaine_64kb.mp3 -> 09 - Le Coche et la Mouche.mp3
+RENAMED: fables07_10_lafontaine_64kb.mp3 -> 10 - La Laitiere et le pot au lait.mp3
+RENAMED: fables07_11_lafontaine_64kb.mp3 -> 11 - Le Cure et le mort.mp3
+RENAMED: fables07_12_lafontaine_64kb.mp3 -> 12 - LÃ¢ÂÂHomme qui court apres la fortune et lÃ¢ÂÂHomme qui lÃ¢ÂÂattend dans son lit.mp3
+RENAMED: fables07_13_lafontaine_64kb.mp3 -> 13 - Les Deux Coqs.mp3
+RENAMED: fables07_14_lafontaine_64kb.mp3 -> 14 - LÃ¢ÂÂIngratitude et lÃ¢ÂÂInjustice des hommes envers la fortune.mp3
+RENAMED: fables07_15_lafontaine_64kb.mp3 -> 15 - Les Devineresses.mp3
+RENAMED: fables07_16_lafontaine_64kb.mp3 -> 16 - Le Chat, la Belette et le petit Lapin.mp3
+RENAMED: fables07_17_lafontaine_64kb.mp3 -> 17 - La Tete et la Queue du serpent.mp3
+RENAMED: fables07_18_lafontaine_64kb.mp3 -> 18 - Un Animal dans la Lune.mp3
+RENAMED: fables08_01_lafontaine_64kb.mp3 -> 01 - La Mort et le Mourant.mp3
+RENAMED: fables08_02_lafontaine_64kb.mp3 -> 02 - Le Savatier et le Financier.mp3
+RENAMED: fables08_03_lafontaine_64kb.mp3 -> 03 - Le Lion, le Loup et le Renard.mp3
+RENAMED: fables08_04_lafontaine_64kb.mp3 -> 04 - Le Pouvoir des Fables.mp3
+RENAMED: fables08_05_lafontaine_64kb.mp3 -> 05 - L'Homme et la Puce.mp3
+RENAMED: fables08_06_lafontaine_64kb.mp3 -> 06 - Les Femmes et le Secret.mp3
+RENAMED: fables08_07_lafontaine_64kb.mp3 -> 07 - Le Chien qui porte a son cou le diner de son maitre.mp3
+RENAMED: fables08_08_lafontaine_64kb.mp3 -> 08 - Le Rieur et les Poissons.mp3
+RENAMED: fables08_09_lafontaine_64kb.mp3 -> 09 - Le Rat et l'Huitre.mp3
+RENAMED: fables08_10_lafontaine_64kb.mp3 -> 10 - L'Ours et l'Amateur des jardins.mp3
+RENAMED: fables08_11_lafontaine_64kb.mp3 -> 11 - Les Deux Amis.mp3
+RENAMED: fables08_12_lafontaine_64kb.mp3 -> 12 - Le Cochon, la Chevre et le Mouton.mp3
+RENAMED: fables08_13_lafontaine_64kb.mp3 -> 13 - Tircis et Amarante.mp3
+RENAMED: fables08_14_lafontaine_64kb.mp3 -> 14 - Les obseques de la Lionne.mp3
+RENAMED: fables08_15_lafontaine_64kb.mp3 -> 15 - Le Rat et l'ÃÂlÃÂ©phant.mp3
+RENAMED: fables08_16_lafontaine_64kb.mp3 -> 16 - L'Horoscope.mp3
+RENAMED: fables08_17_lafontaine_64kb.mp3 -> 17 - L'Ane et le Chien.mp3
+RENAMED: fables08_18_lafontaine_64kb.mp3 -> 18 - Le Bassa et le Marchand.mp3
+RENAMED: fables08_19_lafontaine_64kb.mp3 -> 19 - L'Avantage de la science.mp3
+RENAMED: fables08_20_lafontaine_64kb.mp3 -> 20 - Jupiter et les Tonnerres.mp3
+RENAMED: fables08_21_lafontaine_64kb.mp3 -> 21 - Le Faucon et le Chapon.mp3
+RENAMED: fables08_22_lafontaine_64kb.mp3 -> 22 - Le Chat et le Rat.mp3
+RENAMED: fables08_23_lafontaine_64kb.mp3 -> 23 - Le Torrent et la Riviere.mp3
+RENAMED: fables08_24_lafontaine_64kb.mp3 -> 24 - L'Education.mp3
+RENAMED: fables08_25_lafontaine_64kb.mp3 -> 25 - Les Deux Chiens et l'Ane mort.mp3
+RENAMED: fables08_26_lafontaine_64kb.mp3 -> 26 - Democrite et les Abderitains.mp3
+RENAMED: fables08_27_lafontaine_64kb.mp3 -> 27 - Le Loup et le Chasseur.mp3
+RENAMED: fables09_01_lafontaine_64kb.mp3 -> 01 - Le Depositaire infidele.mp3
+RENAMED: fables09_02_lafontaine_64kb.mp3 -> 02 - Les Deux Pigeons.mp3
+RENAMED: fables09_03_lafontaine_64kb.mp3 -> 03 - Le Singe et le Leopard.mp3
+RENAMED: fables09_04_lafontaine_64kb.mp3 -> 04 - Le Gland et la Citrouille.mp3
+RENAMED: fables09_05_lafontaine_64kb.mp3 -> 05 - L'Ecolier, le Pedant et le Maitre d'un jardin.mp3
+RENAMED: fables09_06_lafontaine_64kb.mp3 -> 06 - Le Statuaire et la statue de Jupiter.mp3
+RENAMED: fables09_07_lafontaine_64kb.mp3 -> 07 - La Souris metamorphosee en fille.mp3
+RENAMED: fables09_08_lafontaine_64kb.mp3 -> 08 - Le Fou qui vend la sagesse.mp3
+RENAMED: fables09_09_lafontaine_64kb.mp3 -> 09 - L'Huitre et les Plaideurs.mp3
+RENAMED: fables09_10_lafontaine_64kb.mp3 -> 10 - Le Loup et le Chien maigre.mp3
+RENAMED: fables09_11_lafontaine_64kb.mp3 -> 11 - Rien de trop.mp3
+RENAMED: fables09_12_lafontaine_64kb.mp3 -> 12 - Le Cierge.mp3
+RENAMED: fables09_13_lafontaine_64kb.mp3 -> 13 - Jupiter et le Passager.mp3
+RENAMED: fables09_14_lafontaine_64kb.mp3 -> 14 - Le Chat et le Renard.mp3
+RENAMED: fables09_15_lafontaine_64kb.mp3 -> 15 - Le Mari, la Femme et le Voleur.mp3
+RENAMED: fables09_16_lafontaine_64kb.mp3 -> 16 - Le Tresor et les deux Hommes.mp3
+RENAMED: fables09_17_lafontaine_64kb.mp3 -> 17 - Le Singe et le Chat.mp3
+RENAMED: fables09_18_lafontaine_64kb.mp3 -> 18 - Le Milan et le Rossignol.mp3
+RENAMED: fables09_19_lafontaine_64kb.mp3 -> 19 - Le Berger et son troupeau.mp3
+RENAMED: fables10_01_lafontaine_64kb.mp3 -> 01 - Les Deux Rats, le Renard et lâOeuf.mp3
+RENAMED: fables10_02_lafontaine_64kb.mp3 -> 02 - L'Homme et la Couleuvre.mp3
+RENAMED: fables10_03_lafontaine_64kb.mp3 -> 03 - La Tortue et les deux Canards.mp3
+RENAMED: fables10_04_lafontaine_64kb.mp3 -> 04 - Les Poissons et le Cormoran.mp3
+RENAMED: fables10_05_lafontaine_64kb.mp3 -> 05 - L'Enfouisseur et son Compere.mp3
+RENAMED: fables10_06_lafontaine_64kb.mp3 -> 06 - Le Loup et les Bergers.mp3
+RENAMED: fables10_07_lafontaine_64kb.mp3 -> 07 - L'Araignee et l'Hirondelle.mp3
+RENAMED: fables10_08_lafontaine_64kb.mp3 -> 08 - La Perdrix et les Coqs.mp3
+RENAMED: fables10_09_lafontaine_64kb.mp3 -> 09 - Le Chien a qui on a coupe les oreilles.mp3
+RENAMED: fables10_10_lafontaine_64kb.mp3 -> 10 - Le Berger et le Roi.mp3
+RENAMED: fables10_11_lafontaine_64kb.mp3 -> 11 - Les Poissons et le Berger qui joue de la flute.mp3
+RENAMED: fables10_12_lafontaine_64kb.mp3 -> 12 - Les Deux Perroquets, le Roi et son fils.mp3
+RENAMED: fables10_13_lafontaine_64kb.mp3 -> 13 - La Lionne et l'Ourse.mp3
+RENAMED: fables10_14_lafontaine_64kb.mp3 -> 14 - Les Deux Aventuriers et le Talisman.mp3
+RENAMED: fables10_15_lafontaine_64kb.mp3 -> 15 - Les Lapins.mp3
+RENAMED: fables10_16_lafontaine_64kb.mp3 -> 16 - Le Marchand, le Gentilhomme, le Patre et le Fils du roi.mp3
+RENAMED: fables11_01_lafontaine_64kb.mp3 -> 01 - Le Lion.mp3
+RENAMED: fables11_02_lafontaine_64kb.mp3 -> 02 - Les Dieux voulant instruire un fils de Jupiter.mp3
+RENAMED: fables11_03_lafontaine_64kb.mp3 -> 03 - Le Fermier, le Chien et le Renard.mp3
+RENAMED: fables11_04_lafontaine_64kb.mp3 -> 04 - Le Songe dâun Habitant du Mogol.mp3
+RENAMED: fables11_05_lafontaine_64kb.mp3 -> 05 - Le Lion, le Singe, et les deux Anes.mp3
+RENAMED: fables11_06_lafontaine_64kb.mp3 -> 06 - Le Loup et le Renard.mp3
+RENAMED: fables11_07_lafontaine_64kb.mp3 -> 07 - Le Paysan du Danube.mp3
+RENAMED: fables11_08_lafontaine_64kb.mp3 -> 08 - Le Vieillard et les trois jeunes Hommes.mp3
+RENAMED: fables11_09_lafontaine_64kb.mp3 -> 09 - Les Souris et le Chat-Huant.mp3
+RENAMED: fables11_10_lafontaine_64kb.mp3 -> 10 - Epilogue.mp3
+RENAMED: fables12_00_lafontaine_jl_64kb.mp3 -> 01 - 00 - A Monsieur le Duc de Bourgogne.mp3
+RENAMED: fables12_01_lafontaine_jl_64kb.mp3 -> 02 - 01 - Les Compagnons d'Ulysse.mp3
+RENAMED: fables12_02_lafontaine_jl_64kb.mp3 -> 03 - 02 - Le Chat et les deux Moineaux.mp3
+RENAMED: fables12_03_lafontaine_jl_64kb.mp3 -> 04 - 03 - Le Thesauriseur et le Singe.mp3
+RENAMED: fables12_04_lafontaine_jl_64kb.mp3 -> 05 - 04 - Les deux Chevres.mp3
+RENAMED: fables12_05_lafontaine_jl_64kb.mp3 -> 06 - 05 - Le vieux Chat et la jeune Souris.mp3
+RENAMED: fables12_06_lafontaine_jl_64kb.mp3 -> 07 - 06 - Le Cerf malade.mp3
+RENAMED: fables12_07_lafontaine_jl_64kb.mp3 -> 08 - 07 - La Chauve-Souris, le Buisson, et le Canard.mp3
+RENAMED: fables12_08_lafontaine_jl_64kb.mp3 -> 09 - 08 - La Querelle des Chiens et des Chats, et celle des Chats et des Souris.mp3
+RENAMED: fables12_09_lafontaine_jl_64kb.mp3 -> 10 - 09 - Le Loup et le Renard.mp3
+RENAMED: fables12_10_lafontaine_jl_64kb.mp3 -> 11 - 10 - L'Ecrevisse et sa Fille.mp3
+RENAMED: fables12_11_lafontaine_jl_64kb.mp3 -> 12 - 11 - LâAigle et la Pie.mp3
+RENAMED: fables12_12_lafontaine_jl_64kb.mp3 -> 13 - 12 - Le Milan, le Roi, et le Chasseur.mp3
+RENAMED: fables12_13_lafontaine_jl_64kb.mp3 -> 14 - 13 - Le Renard, les Mouches, et le HÃ©risson.mp3
+RENAMED: fables12_14_lafontaine_jl_64kb.mp3 -> 15 - 14 - LâAmour et la Folie.mp3
+RENAMED: fables12_15_lafontaine_jl_64kb.mp3 -> 16 - 15 - Le Corbeau, la Gazelle, la Tortue, et le Rat.mp3
+RENAMED: fables12_16_lafontaine_jl_64kb.mp3 -> 17 - 16 - La Foret et le Bucheron.mp3
+RENAMED: fables12_17_lafontaine_jl_64kb.mp3 -> 18 - 17 - Le Renard, le Loup, et le Cheval.mp3
+RENAMED: fables12_18_lafontaine_jl_64kb.mp3 -> 19 - 18 - Le Renard et les Poulets dâInde.mp3
+RENAMED: fables12_19_lafontaine_jl_64kb.mp3 -> 20 - 19 - Le Singe.mp3
+RENAMED: fables12_20_lafontaine_jl_64kb.mp3 -> 21 - 20 - Le Philosophe scythe.mp3
+RENAMED: fables12_21_lafontaine_jl_64kb.mp3 -> 22 - 21 - LâElephant, et le Singe de Jupiter.mp3
+RENAMED: fables12_22_lafontaine_jl_64kb.mp3 -> 23 - 22 - Un Fou et un Sage.mp3
+RENAMED: fables12_23_lafontaine_jl_64kb.mp3 -> 24 - 23 - Le Renard anglais.mp3
+RENAMED: fables12_24_lafontaine_jl_64kb.mp3 -> 25 - 24 - Daphnis et Alcimadure.mp3
+RENAMED: fables12_25_lafontaine_jl_64kb.mp3 -> 26 - 25 - Philemon et Baucis.mp3
+RENAMED: fables12_26_lafontaine_jl_64kb.mp3 -> 27 - 26 - La Matrone dâEphese.mp3
+RENAMED: fables12_27_lafontaine_jl_64kb.mp3 -> 27 - Belphegor.mp3
+RENAMED: fables12_28_lafontaine_jl_64kb.mp3 -> 29 - 28 - Les Filles de Minee.mp3
+RENAMED: fables12_29_lafontaine_jl_64kb.mp3 -> 30 - 29 - Le Juge arbitre, lâHospitalier, et le Solitaire.mp3
+RENAMED: fables12_30_lafontaine_jl_64kb.mp3 -> 31 - 30 - La Ligue des Rats.mp3
+RENAMED: fables12_31_lafontaine_jl_64kb.mp3 -> 32 - 31 - Le Renard et l'Ecureuil.mp3
+RENAMED: fables12_32_lafontaine_jl_64kb.mp3 -> 33 - 32 - Le Soleil et les Grenouilles.mp3
+RENAMED: fables12_33_lafontaine_jl_64kb.mp3 -> 34 - 33 - La Poule et le Renard.mp3
+Done. Processed: 255, Renamed: 251, Skipped: 4

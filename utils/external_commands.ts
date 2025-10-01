@@ -34,6 +34,34 @@ export function getInstallDir(): string {
   }
 }
 
+// Convert a Windows path to its WSL counterpart (e.g., C:\foo\bar -> /mnt/c/foo/bar)
+function convWindowsWslPath(path: string, cwd?: string): string {
+  const groups = /^[a-z]:/i.test(path)
+    ? /(^.)(.*)$/.exec(path)
+    : /(^.)(.*)$/.exec((cwd || Deno.cwd()) + "/" + path);
+  return (
+    "/mnt/" +
+    groups?.[1].toLowerCase() +
+    groups?.[2].replace(/\\/g, "/").replace(/:/g, "")
+  );
+}
+
+/**
+ * Convert a Windows path to its WSL counterpart only when the command is executed via WSL.
+ * Avoids duplicating this logic in each provider.
+ */
+export function convertPathForCommand(
+  path: string,
+  command: string[],
+  skipWsl: boolean,
+): string {
+  const isWslCmd = command[0] === "wsl";
+  if (Deno.build.os === "windows" && !skipWsl && isWslCmd) {
+    return convWindowsWslPath(path);
+  }
+  return path;
+}
+
 export async function getFfmpegCommand(): Promise<string[]> {
   if (ffmpegCommand.length === 0) {
     if (Deno.build.os === "windows") {
@@ -159,10 +187,10 @@ or install ImageMagick : sudo apt install -y imagemagick
 }
 
 let gttsCommand: string[] = [];
-export async function getGttsCommand(): Promise<string[]> {
+export async function getGttsCommand(skipWsl = false): Promise<string[]> {
   if (gttsCommand.length === 0) {
     // try wsl on windows
-    if (Deno.build.os === "windows" && await checkCommand(["wsl", "gtts-cli", "-h"], 0)) {
+    if (Deno.build.os === "windows" && !skipWsl && await checkCommand(["wsl", "gtts-cli", "-h"], 0)) {
       gttsCommand = ["wsl", "gtts-cli"];
     } else if (await checkCommand(["gtts-cli", "-h"], 0)) {
       gttsCommand = ["gtts-cli"];

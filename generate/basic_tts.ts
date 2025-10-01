@@ -1,10 +1,10 @@
 import { bgRed, blue } from "@std/fmt/colors";
 import $ from "@david/dax";
 
-import { convertPath } from "../utils/utils.ts";
 import {
   checkCommand,
   getPico2waveCommand,
+  convertPathForCommand,
 } from "../utils/external_commands.ts";
 import { cacheTtsFile, useCachedTtsFile } from "./tts_cache.ts";
 import type { StudioPackGenerator } from "../studio_pack_generator.ts";
@@ -96,7 +96,7 @@ async function macos_tts(
   ) {
     const args = [
       "-o",
-      convertPath(outputPath, opt),
+      outputPath,
       "--file-format",
       "WAVE",
       "--data-format",
@@ -132,7 +132,7 @@ async function pico2wave_tts(
       "-l",
       lang,
       "-w",
-      convertPath(outputPath, opt),
+      convertPathForCommand(outputPath, pico2waveCommand, opt.skipWsl),
       ` . ${title} . `,
     ];
     const res = await $`${cmd}`.noThrow();

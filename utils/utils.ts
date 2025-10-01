@@ -4,6 +4,7 @@ import $ from "@david/dax";
 
 import { getFfmpegCommand } from "./external_commands.ts";
 import type { StudioPackGenerator } from "../studio_pack_generator.ts";
+import { join } from "@std/path";
 
 export const extensionRegEx = /\.([^.?]+)(\?.*)?$/i;
 export const folderAudioItemRegEx = /^0-item\.(ogg|opus|wav|mp3|m4a)$/i;
@@ -185,11 +186,17 @@ export async function convertToImageItem(
 
   const ffmpegCommand = await getFfmpegCommand();
 
+  // Try to extract the attached picture (APIC) if present in MP3 using the video stream mapping.
+  // We select the first video stream (attached_pic), take 1 frame, scale and pad to 320x240.
   const cmd = [
-    ffmpegCommand,
-    ...ffmpegCommand.splice(1),
+    ...ffmpegCommand,
+    "-y",
     "-i",
     inputPath,
+    "-map",
+    "0:v:0?",
+    "-frames:v",
+    "1",
     "-vf",
     "scale=320:240:force_original_aspect_ratio=decrease,pad='320:240:(ow-iw)/2:(oh-ih)/2'",
     outputPath,
@@ -198,7 +205,7 @@ export async function convertToImageItem(
   if (result.code === 0) {
     console.log(bgGreen("→ OK"));
   } else {
-    console.log(bgRed("→ KO :"));
+    console.log(bgRed("→ KO (no embedded artwork or extraction failed) :"));
     console.log(result.stderr);
   }
 }
@@ -232,6 +239,61 @@ export function cleanStageName(name: string): string {
     .replace(/\.[^/.]+$/, "")
     .trim();
 }
+
+// Minimal ID3v2 TIT2 (Title) reader (v2.3/v2.4). Returns title or null.
+export async function readId3Title(filePath: string): Promise<string | null> {
+  try {
+    const f = await Deno.open(filePath, { read: true });
+    try {
+      const header = new Uint8Array(10);
+      const n = await f.read(header);
+      if (!n || n < 10) return null;
+      if (String.fromCharCode(header[0], header[1], header[2]) !== "ID3") {
+        return null;
+      }
+      const ver = header[3];
+      const size = ((header[6] & 0x7f) << 21) | ((header[7] & 0x7f) << 14) | ((header[8] & 0x7f) << 7) | (header[9] & 0x7f);
+      const tag = new Uint8Array(size);
+      const m = await f.read(tag);
+      if (!m) return null;
+      let offset = 0;
+      while (offset + 10 <= tag.length) {
+        const id = String.fromCharCode(tag[offset], tag[offset + 1], tag[offset + 2], tag[offset + 3]);
+        let frameSize = 0;
+        if (ver === 4) {
+          frameSize = ((tag[offset + 4] & 0x7f) << 21) | ((tag[offset + 5] & 0x7f) << 14) | ((tag[offset + 6] & 0x7f) << 7) | (tag[offset + 7] & 0x7f);
+        } else {
+          frameSize = (tag[offset + 4] << 24) | (tag[offset + 5] << 16) | (tag[offset + 6] << 8) | tag[offset + 7];
+        }
+        const flagsOffset = offset + 8;
+        if (frameSize <= 0) break;
+        const dataOffset = offset + 10;
+        if (id === "TIT2" && dataOffset + frameSize <= tag.length) {
+          const enc = tag[dataOffset];
+          const payload = tag.subarray(dataOffset + 1, dataOffset + frameSize);
+          let title = "";
+          if (enc === 0) { // ISO-8859-1
+            title = new TextDecoder("latin1").decode(payload);
+          } else if (enc === 3) { // UTF-8
+            title = new TextDecoder().decode(payload);
+          } else if (enc === 1 || enc === 2) { // UTF-16 with/without BOM
+            // Use UTF-16LE as a best-effort; BOM will correct if present
+            title = new TextDecoder("utf-16").decode(payload);
+          }
+          title = title.replace(/\u0000/g, "").trim();
+          return title || null;
+        }
+        offset = dataOffset + frameSize;
+      }
+      return null;
+    } finally {
+      f.close();
+    }
+  } catch (_e) {
+    return null;
+  }
+}
+
 export function groupBy<T>(
   array: T[],
   predicate: (value: T, index: number, array: T[]) => string,

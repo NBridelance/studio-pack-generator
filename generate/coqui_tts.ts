@@ -1,5 +1,5 @@
 import { cacheTtsFile, useCachedTtsFile } from "./tts_cache.ts";
-import { getCoquiCommand } from "../utils/external_commands.ts";
+import { getCoquiCommand, convertPathForCommand } from "../utils/external_commands.ts";
 import $ from "@david/dax";
 import { bgRed } from "@std/fmt/colors";
 import type { StudioPackGenerator } from "../studio_pack_generator.ts";
@@ -28,7 +28,7 @@ export async function generate_audio_with_coqui(
       "--model_name",
       opt.coquiTtsModel,
       "--out_path",
-      outputPath,
+      convertPathForCommand(outputPath, coquiCommand, opt.skipWsl),
     ];
     if (opt.coquiTtsLanguageIdx) {
       cmd.push("--language_idx", opt.coquiTtsLanguageIdx);

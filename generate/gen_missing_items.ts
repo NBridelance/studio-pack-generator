@@ -9,6 +9,7 @@ import {
   getNightModeAudioItem,
   isFolder,
   isStory,
+  readId3Title,
 } from "../utils/utils.ts";
 import { generateImage } from "./gen_image.ts";
 import { generateAudio } from "./gen_audio.ts";
@@ -80,6 +81,9 @@ export async function genMissingItems(
         );
       } else if (isStory(file)) {
         let title = getTitle(getNameWithoutExt(file.name));
+        // Prefer ID3 title if present
+        const id3Title = await readId3Title(join(rootpath, file.name));
+        if (id3Title) title = id3Title;
         const metadataPath = join(
           rootpath,
           getNameWithoutExt(file.name) + "-metadata.json",

@@ -2,8 +2,7 @@ import { bgRed, blue } from "@std/fmt/colors";
 import $ from "@david/dax";
 
 import { cacheTtsFile, useCachedTtsFile } from "./tts_cache.ts";
-import { getGttsCommand, getFfmpegCommand } from "../utils/external_commands.ts";
-import { convertPath } from "../utils/utils.ts";
+import { getGttsCommand, getFfmpegCommand, convertPathForCommand } from "../utils/external_commands.ts";
 import type { StudioPackGenerator } from "../studio_pack_generator.ts";
 
 export async function generate_audio_with_gtts(
@@ -14,10 +13,10 @@ export async function generate_audio_with_gtts(
 ) {
   const cacheKey = ["gTTS", title, lang];
   if (opt.skipReadTtsCache || !(await useCachedTtsFile(outputPath, cacheKey, opt))) {
-    const gttsCommand = await getGttsCommand();
+    const gttsCommand = await getGttsCommand(opt.skipWsl);
     const tmpMp3 = outputPath.replace(/\.wav$/i, ".mp3");
-    // Only convert path to WSL when using WSL command
-    const outMp3ForCmd = gttsCommand[0] === "wsl" ? convertPath(tmpMp3, opt) : tmpMp3;
+    // Only convert path when using WSL command (centralized helper)
+    const outMp3ForCmd = convertPathForCommand(tmpMp3, gttsCommand, opt.skipWsl);
     const args = [
       gttsCommand[0],
       ...gttsCommand.slice(1),
