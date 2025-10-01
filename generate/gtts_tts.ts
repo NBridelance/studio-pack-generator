@@ -16,13 +16,15 @@ export async function generate_audio_with_gtts(
   if (opt.skipReadTtsCache || !(await useCachedTtsFile(outputPath, cacheKey, opt))) {
     const gttsCommand = await getGttsCommand();
     const tmpMp3 = outputPath.replace(/\.wav$/i, ".mp3");
+    // Only convert path to WSL when using WSL command
+    const outMp3ForCmd = gttsCommand[0] === "wsl" ? convertPath(tmpMp3, opt) : tmpMp3;
     const args = [
       gttsCommand[0],
       ...gttsCommand.slice(1),
       "-l",
       (lang || "fr").split(/[-_]/)[0],
       "-o",
-      convertPath(tmpMp3, opt),
+      outMp3ForCmd,
       title,
     ];
     console.log(blue(`gTTS gen ${title} -> ${tmpMp3}`));
@@ -39,7 +41,7 @@ export async function generate_audio_with_gtts(
         "1",
         "-ar",
         "22050",
-        convertPath(outputPath, opt),
+        outputPath,
       ];
       const convRes = await $`${conv}`.noThrow();
       if (convRes.code === 0) {
