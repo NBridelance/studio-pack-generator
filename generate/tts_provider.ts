@@ -5,6 +5,7 @@ import { generate_audio_with_openAI } from "./openai_tts.ts";
 import { generate_audio_with_coqui } from "./coqui_tts.ts";
 import { generate_audio_with_gtts } from "./gtts_tts.ts";
 import { generate_audio_with_gemini } from "./gemini_tts.ts";
+import type { TtsOptions } from "../packages/tts-providers/interface.ts";
 
 export type TtsKind = "openai" | "gemini" | "gtts" | "coqui" | "basic";
 

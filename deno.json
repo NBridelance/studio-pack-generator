@@ -15,8 +15,7 @@
     "test-watch": "deno test -A --watch --unstable --ignore=gui/assets_bundle.json,gui/frontend,tmp,dist,.cov_profile,vendor",
     "update-changelog": "conventional-changelog -p conventionalcommits --same-file  -i CHANGELOG.md -k deno.json && deno task fmt",
     "update-frontend-assets": "cd gui/frontend && npm run build && ../gui.ts updateAssets"
-  },
-  "imports": {
+  },  "imports": {
     "@david/dax": "jsr:@david/dax@^0.42.0",
     "@dbushell/audio-duration": "jsr:@dbushell/audio-duration@^0.6.0",
     "@es-toolkit/es-toolkit": "jsr:@es-toolkit/es-toolkit@^1.23.0",
@@ -32,7 +31,10 @@
     "@std/path": "jsr:@std/path@^1.0.6",
     "@zip-js/zip-js": "jsr:@zip-js/zip-js@^2.7.52/data-uri",
     "https://deno.land/": "./vendor/deno.land/",
-    "https://deno.land/std/": "./vendor/deno.land/std@0.216.0/"
+    "https://deno.land/std/": "./vendor/deno.land/std@0.216.0/",
+    "@spg/core": "./packages/core/",
+    "@spg/tts-providers": "./packages/tts-providers/",
+    "@spg/external-commands": "./packages/external-commands/"
   },
   "exports": "./studio_pack_generator.ts",
   "publish": {
